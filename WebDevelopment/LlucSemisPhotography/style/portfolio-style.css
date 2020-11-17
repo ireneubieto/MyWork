@@ -1,0 +1,70 @@
+/* Portfolio file css*/
+
+/*Image Scroller*/
+.container {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 50px;
+  background-color: var(--bg-color);
+  position: relative;
+  border: none;
+  overflow: hidden;
+}
+.scroller {
+  height: 500px;
+  width: 100%;
+  margin: 0;
+  background-size: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: wvar(--bg-color);
+}
+.row{
+  height: 250px;
+  width: 100%;
+  background: var(--bg-color);
+  display: flex;
+  border: none;
+  padding-right: 3px;
+  padding-bottom: 3px;
+}
+.row img {
+  height: 250px;
+  background: var(--bg-color);
+  display: inline-block;
+  border: none;
+  padding-right: 3px;
+}
+/* Position the menu container inside the content */
+.menu {
+  position: fixed;
+  margin-top: 0px;
+  margin-left: 25px;
+  height: 500px;
+  width: 150px;
+  background-color: var(--bg-color);
+  opacity: 0.8;
+}
+.menu-content {
+  font-family: 'Dosis', sans-serif;
+  position: relative;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.menu a{
+  padding: 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--big-contrast-color);
+  display: block;
+}
+.menu a:hover, .menu a:focus {
+  color: var(--text-color);
+}
+.copyright{
+  font-size: 12px;
+  font-family: 'Dosis', sans-serif;
+  color: var(--big-contrast-color);
+}

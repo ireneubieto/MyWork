@@ -1,0 +1,140 @@
+/*Contact file css*/
+
+/*Image Scroller with menu*/
+.container {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 50px;
+  background-color: var(--bg-color);
+  position: relative;
+  border: none;
+  overflow: hidden;
+}
+/* Position the menu container inside the content */
+.menu {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 25px;
+  height: 500px;
+  width: 150px;
+  background-color: var(--bg-color);
+  opacity: 0.8;
+}
+.menu-content {
+  font-family: 'Dosis', sans-serif;
+  position: relative;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.menu a{
+  padding: 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--big-contrast-color);
+  display: block;
+}
+.menu a:hover, .menu a:focus {
+  color: var(--text-color);
+}
+.copyright{
+  font-size: 12px;
+  font-family: 'Dosis', sans-serif;
+  color: var(--big-contrast-color);
+}
+    
+/* Contact form */
+.contact {
+  height: 500px;
+  margin-top: 0px;
+  margin-left: 175px;
+  padding-top: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  overflow: hidden;
+  text-align: center;
+  background-color: var(--bg-color);
+  display: block;
+  color: var(--text-color);
+}  
+label {
+    font-size: 14px;
+    font-family: 'Dosis', sans-serif;
+	display: block;
+	margin: 0 0 8px 0;
+	min-width: 50px;
+}
+input, textarea {
+    font-size: 14px;
+    font-family: 'Dosis', sans-serif;
+	border: 2px solid #ccc;
+	padding: 4px 0;
+	width: 100%;
+}
+textarea{
+  resize: vertical;
+  min-height: 20px;
+  max-height: 150px;
+}
+input[type=submit] {
+  font-family: 'Dosis', sans-serif;
+  background: var(--big-contrast-color);
+  border: 0;
+  color: var(--bg-color);
+  padding: 8px 16px;
+  transition: background 0.2s;
+}
+.form-group p{
+  color: var(--text-color);
+  margin-top: 5em;
+  padding-left: 25px;
+  font-family: 'Dosis', sans-serif;
+  display: inline;
+}
+.subscription{
+  position: absolute;
+  margin-left: -50%;
+}
+
+.invalid{
+  font-family: 'Dosis', sans-serif;
+  margin-left: -80%;
+}
+
+input[type=submit]:not(:disabled):hover {
+	background: #7d7d7d;
+}
+input[type=submit]:not(:disabled):active {
+	background: #505050;
+}
+input[disabled] {
+	opacity: 0.5;
+}
+.form-group {
+	margin-bottom: 16px;
+}
+input.ng-invalid.ng-dirty,
+textarea.ng-invalid.ng-dirty{
+	border-color: red;
+	box-shadow: 0 0 4px red;
+}
+    
+/*Sent message*/
+.thankyou_message {
+  color: var(--text-color);
+  height: 500px;
+  margin-top: 0px;
+  margin-left: 175px;
+  padding-top: 130px;
+  padding-left: 200px;
+  padding-right: 380px;
+  overflow: hidden;
+  text-align: center;
+  background-color: var(--bg-color);
+  display: none;
+} 
+.thankyou_message p{
+  font-family: 'Dosis', sans-serif;
+  font-size: 28px;
+}
