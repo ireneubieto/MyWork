@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
+</style>
+<body class="w3-theme-l5">
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-white w3-card">
+  <a href="web_portada.html" onclick="location.href='http://mamuthack.test/web_portada.html'"class="w3-button w3-padding-16 w3-left"><i class="fa fa-home w3-margin-right"></i>Go Back</a>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="News"><i class="fa fa-globe"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Account Settings"><i class="fa fa-user"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-envelope"></i></a>
+  <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button w3-padding-large" title="Notifications"><i class="fa fa-bell"></i><span class="w3-badge w3-right w3-small w3-green">3</span></button>
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block" style="width:300px">
+      <a href="#" class="w3-bar-item w3-button">One new friend request</a>
+      <a href="#" class="w3-bar-item w3-button">John Doe posted on your wall</a>
+      <a href="#" class="w3-bar-item w3-button">Jane likes your post</a>
+    </div>
+  </div>
+  <a href="#" onclick="location.href='web_portada.html'"class="w3-button w3-padding-16 w3-right">Log Out</a>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Account">
+    <img src="Images/Rewards/Seal.png" class="w3-circle" style="height:23px;width:23px" alt="Avatar">
+  </a>
+ </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium w3-large">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">My Profile</a>
+</div>
+
+<!-- Page Container -->
+<div class="w3-container w3-content" style="max-width:1400px;margin-top:80px">
+  <!-- The Grid -->
+  <div class="w3-row">
+    <!-- Left Column -->
+    <div class="w3-col m3">
+      <!-- Profile -->
+      <div class="w3-card w3-round w3-white">
+        <div class="w3-container">
+         <h4 class="w3-center">My Profile</h4>
+         <p class="w3-center"><img src="https://avatarsed1.serversdev.getgo.com/2205256774854474505_medium.jpg" class="w3-circle" style="height:106px;width:106px" alt="Avatar"></p>
+         <hr>
+         
+          <p><i class="fa fa-user fa-fw w3-margin-right" style="color: darkseagreen"></i>Mark Zuckerberg</p>
+          <p><i class="fa fa-pencil fa-fw w3-margin-right" style="color: darkseagreen"></i> Telecom Student, UI</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right" style="color: darkseagreen"></i> Barcelona, Cat</p>
+          <p><i class="fa fa-birthday-cake fa-fw w3-margin-right" style="color: darkseagreen"></i> December 9, 1999</p>
+        </div>
+      </div>
+      <br>
+
+      <!-- Accordion -->
+        <div class="w3-card w3-round">
+          <div class="w3-white">
+            <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-left-align" style="background-color: darkseagreen"><i class="fa fa-circle-o-notch fa-fw w3-margin-right"></i> My Groups</button>
+            <div id="Demo1" class="w3-hide w3-container">
+              <p>Some text..</p>
+            </div>
+            <button onclick="myFunction('Demo2')" class="w3-button w3-block w3-left-align" style="background-color: darkseagreen"><i class="fa fa-calendar-check-o fa-fw w3-margin-right"></i> My Events</button>
+            <div id="Demo2" class="w3-hide w3-container">
+              <p>Some other text..</p>
+            </div>
+            <button onclick="myFunction('Demo3')" class="w3-button w3-block w3-left-align" style="background-color: darkseagreen"><i class="fa fa-users fa-fw w3-margin-right"></i> My Photos</button>
+            <div id="Demo3" class="w3-hide w3-container">
+            </div>
+          </div>
+        </div>
+      <br>
+
+
+      <br>
+
+    <!-- End Left Column -->
+    </div>
+
+   <!-- Middle Column -->
+    <div class="w3-col m7">
+
+      <div class="w3-row-padding">
+        <div class="w3-col m12">
+          <div class="w3-card w3-round w3-white">
+            <div class="w3-container w3-padding">
+              <h6 class="w3-opacity">FUTURE EVENTS</h6>
+              <div class="w3-card-4 w3-margin w3-white" style="padding: 20px;">
+                <img src="http://www.wastenet.org.nz/Hints%20and%20Tips/~/media/86E00DC3CACE49BA8681B10E4E145A38.ashx?20130925T1105114082" style="width:100px">
+                <h4><b>SECOND-HAND CLOTHING PICK UP </b></h4>
+                <h5>Date: <span class="w3-opacity">October 7, 2019</span></h5>
+              </div>
+              <div class="w3-card-4 w3-margin w3-white" style="padding: 20px;">
+                <img src="http://www.fundaciodamm.cat/sites/default/files/2018-03/C24-A.gif" style="width:100px">
+                <h4><b>FOOD PICK UP </b></h4>
+                <h5>Date: <span class="w3-opacity">October 9, 2019</span></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+
+
+      <div class="w3-row-padding">
+        <div class="w3-col m12">
+          <div class="w3-card w3-round w3-white">
+            <div class="w3-container w3-padding">
+              <h6 class="w3-opacity">NUMBER OF ECO-POINTS</h6>
+              <p><span class="w3-padding-large w3-right" style="margin-top: -3em"><b> POINTS  </b> <span class="w3-tag" style="background-color: darkseagreen">68</span></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="w3-row-padding">
+        <div class="w3-col m12">
+          <div class="w3-card w3-round w3-white">
+            <div class="w3-container w3-padding">
+              <h6 class="w3-opacity">NUMBER OF DAILY CHALLENGES</h6>
+              <p>You are currently a: <span style="color: coral">SEAL</span> </p>
+              <p><span class="w3-padding-large w3-right"><b> POINTS  </b> <span class="w3-tag" style="background-color: darkseagreen">68</span></span></p>
+              <p><button onclick="location.href='rewards.html'" class="w3-button w3-padding-small w3-white w3-border"  ><b>Consult Prizes</b></button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <!-- End Middle Column -->
+    </div>
+
+
+  <!-- End Grid -->
+  </div>
+
+<!-- End Page Container -->
+</div>
+<br>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-32">
+  
+  <div class="w3-xlarge w3-section">
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-facebook"></i>
+  </div>
+</footer>
+
+<script>
+// Accordion
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-theme-d1";
+  } else {
+    x.className = x.className.replace("w3-show", "");
+    x.previousElementSibling.className =
+    x.previousElementSibling.className.replace(" w3-theme-d1", "");
+  }
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>

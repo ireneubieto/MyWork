@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<title>ecoAction</title>
+<link rel="icon" href="Images/icon.jpg" type="image/gif" sizes="16x16">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style/web_portada.css">
+
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#daily" onclick="w3_close()" class="w3-bar-item w3-button">Daily Challenge</a>
+  <a href="#events" onclick="w3_close()" class="w3-bar-item w3-button">Events</a>
+  <a href="#lifestyle" onclick="w3_close()" class="w3-bar-item w3-button">Lifestyle</a>
+
+</nav>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#daily" class="w3-bar-item w3-button"><i class="fa fa-trophy"></i> DAILY CHALLENGE</a>
+      <a href="#events" class="w3-bar-item w3-button"><i class="fa fa-globe"></i> EVENTS</a>
+      <a href="#lifestyle" class="w3-bar-item w3-button"><i class="fa fa-leaf"></i> LIFESTYLE</a>
+      <a href="perfil.html" class="w3-bar-item w3-button" style="background-color: #4CAF50"> PROFILE</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#daily" onclick="w3_close()" class="w3-bar-item w3-button">DAILY CHALLENGE</a>
+  <a href="#events" onclick="w3_close()" class="w3-bar-item w3-button">EVENTS</a>
+  <a href="#lifestyle" onclick="w3_close()" class="w3-bar-item w3-button">LIFESTYLE</a>
+
+</nav>
+<br>
+<br>
+<!-- First Grid: Logo & About -->
+<div class="w3-center" style="margin-top: 50px;">
+  <img src="Images/Intro.png" style="width: 70%">
+</div>
+    
+<!-- Daily Challenge Section -->
+<div class="w3-main" style="margin-top: 50px; margin-bottom: 50px" id="daily">
+  <!-- Header -->
+  <header id="portfolio">
+    <div class="w3-container">
+      <h2 class="w3-center">DAILY CHALLENGE</h2>
+      <p class="w3-center w3-large" style="margin-top: -1em">Follow our daily challenge proposed on twitter to upgrade your level and get real prizes!</p>
+    </div>
+  </header>
+  <figure align ="center">
+    <div style="width: 50%; display: block; margin-left: auto; margin-right: auto; padding-left: 8%; padding-right: 8%">
+    <blockquote class="twitter-tweet"><p lang="es" dir="ltr">¡<a href="https://twitter.com/hashtag/retoEco?src=hash&amp;ref_src=twsrc%5Etfw">#retoEco</a> del día!<br>Es importante beber agua, pero siempre de manera sostenible. ¡Sube una foto con tu botella reutilizable!<br>El nombre del reto es: Hidratado.</p>&mdash; ChotaWarBot (@ChotaWar) <a href="https://twitter.com/ChotaWar/status/1180592592888582146?ref_src=twsrc%5Etfw">October 5, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+  </figure>
+  <p class="w3-center w3-large" style="margin-top: 2em">Tweet using the <span style="color:#4CAF50">#retoEco</span> hashtag about how you've achieved the daily challenge, and keep an eye on your profile to see how well you're doing ;) </p>
+
+<script>
+
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">14+</span>
+    <br>litter pick-ups
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">55+</span>
+    <br>second-hand clothing pick-ups
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">89+</span>
+    <br>Food pick-ups
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">150+</span>
+    <br>Tree plantation
+  </div>
+</div>
+
+<!-- Events Section -->
+<div class="w3-main" style="margin-top: 50px" id="events">
+  <!-- Header-->
+  <header id="portfolio">
+    <h2 class="w3-center">EVENTS</h2>
+    <p class="w3-center w3-large" style="margin-top: -1em">What can you do? Be an active member in our community and earn eco-points! </p>
+  </header>
+  <figure align="center">
+  <!-- Blog entries -->
+  <form class="w3-row" method="post" action="connect_portada.php">
+    <!-- Blog entry 1 -->
+    <div class="w3-half w3-card-4 w3-margin w3-white" style="width: 47%">
+        <div class="w3-container">
+          <br>
+          <figure align ="center">
+            <img src="https://cronicaglobal.elespanol.com/uploads/s1/32/46/84/5/latas-basura-playa.png" style="width:400px;height:250px">
+            <h3><b>LITTER PICK UP</b></h3>
+            <h5>Next pick up: <span class="w3-opacity">October 1, 2019</span></h5>
+          </figure>
+        </div>
+
+        <div class="w3-container">
+          <p>Picking up litter from la Barceloneta is a great way to keep our beaches clean. Want to help? </p>
+          <div class="w3-row">
+            <div class="w3-col m8 s12">
+              <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+              <p><button class="w3-button w3-padding-small w3-white w3-border" type="Submit" name= '1' ><b>INSCRIBE ME!</b></button></p>
+            </div>
+            <div class="w3-col m4 w3-hide-small">
+              <p><span class="w3-padding-large w3-right"><b>Assistants  </b> <span class="w3-tag">256</span></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Blog entry 2 -->
+    <div class="w3-half w3-card-4 w3-margin w3-white" style="width: 47%">
+        <div class="w3-container">
+        <br>
+          <figure align ="center">
+            <img src="http://www.wastenet.org.nz/Hints%20and%20Tips/~/media/86E00DC3CACE49BA8681B10E4E145A38.ashx?20130925T1105114082" style="width:400px;height:250px">
+            <h3><b>SECOND-HAND CLOTHING PICK UP </b></h3>
+            <h5>Next pick up: <span class="w3-opacity">October 7, 2019</span></h5>
+          </figure>
+        </div>
+
+        <div class="w3-container">
+          <p>Do you want to be a part of a clothing pick-up campaing collaborating with ONGs? </p>
+          <div class="w3-row">
+            <div class="w3-col m8 s12">
+              <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+              <p><button class="w3-button w3-padding-small w3-white w3-border" name= '2'><b>INSCRIBE ME!</b></button></p>
+            </div>
+            <div class="w3-col m4 w3-hide-small">
+              <p><span class="w3-padding-large w3-right"><b>Assistants  </b> <span class="w3-tag">208</span></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </form>
+  <form class="w3-row" method="post" action="connect_portada.php">
+    <!-- Blog entry 3 -->
+    <div class="w3-half w3-card-4 w3-margin w3-white" style="width: 47%">
+        <br>
+        <figure align ="center">
+          <img src="http://www.fundaciodamm.cat/sites/default/files/2018-03/C24-A.gif" style="width:400px;height:250px">
+        </figure>
+        <div class="w3-container">
+          <h3><b>FOOD PICK UP </b></h3>
+          <h5>Next pick up: <span class="w3-opacity">October 9, 2019</span></h5>
+        </div>
+
+        <div class="w3-container">
+          <p>Do you want to be a part of a food pick-up campaing collaborating with ONGs such as 'El Banc d'aliments'? </p>
+          <div class="w3-row">
+            <div class="w3-col m8 s12">
+              <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+              <p><button class="w3-button w3-padding-small w3-white w3-border" name= '3' ><b>INSCRIBE ME!</b></button></p>
+            </div>
+            <div class="w3-col m4 w3-hide-small">
+              <p><span class="w3-padding-large w3-right"><b>Assistants  </b> <span class="w3-tag">57</span></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Blog entry 4 -->
+    <div class="w3-half w3-card-4 w3-margin w3-white" style="width: 47%">
+        <br>
+        <figure align ="center">
+          <img src="http://www.bakhaberkissan.com/wp-content/uploads/2019/03/C09319.jpg" style="width:400px;height:250px">
+        </figure>
+        <div class="w3-container">
+          <h3><b>TREE PLANTATION </b></h3>
+          <h5>Next pick up: <span class="w3-opacity">October 12, 2019</span></h5>
+        </div>
+          
+        <div class="w3-container">
+          <p>Come join us to be an active part in the green fight! Plant trees to restore wildlife, reduce CO2 and make this world better!  </p>
+          <div class="w3-row">
+            <div class="w3-col m8 s12">
+              <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+              <p><button class="w3-button w3-padding-small w3-white w3-border" name= '4' ><b>INSCRIBE ME!</b></button></p>
+            </div>
+            <div class="w3-col m4 w3-hide-small">
+              <p><span class="w3-padding-large w3-right"><b>Assistants  </b> <span class="w3-tag">157</span></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+   </form>
+  </figure>
+</div>
+    
+<!-- Lifestyle Section -->
+<div class="w3-main" style="margin-top: 50px" id="lifestyle">
+  <!-- Header -->
+  <header id="portfolio">
+    <div class="w3-container">
+      <h2 class="w3-center">LIFESTYLE</h2>
+      <p class="w3-center w3-large" style="margin-top: -1em">Eat, shop or travel with our friends, and claim eco-prizes!</p>
+      <p class="w3-center" style="margin-top: -1em">In ecoAction we give you zero-waste, toxin-free and cruelty free options designed to help you live a more eco-friendly life.</p>
+    </div>
+  </header>
+  <figure align ="center">
+    <div class="w3-row">
+    <div class="w3-half w3-container">
+      <h3>RESTAURANTS</h3>
+      <div class="slideshow-container">
+
+        <div class="mySlides1">
+          <figure align ="center">
+            <img src="Images/FlaxKale.png" style="width:100%">
+          </figure>
+          <div class="w3-container w3-white">
+            <h4><b>Flak & Kale</b></h4>
+            <p style="margin-top: -1em">Healthy-flexitarian restaurant.</p>
+          </div>
+        </div>
+        <div class="mySlides1">
+      <figure align ="center">
+        <img src="Images/Woki.png" style="width:100%">
+      </figure>
+      <div class="w3-container w3-white">
+        <h4><b>Woki Playa</b></h4>
+        <p style="margin-top: -1em">Specialized in ecological meat burgers.</p>
+      </div>
+    </div>
+        <div class="mySlides1">
+      <figure align ="center">
+        <img src="Images/TeresaCarles.png" style="width:100%">
+      </figure>
+      <div class="w3-container w3-white">
+        <h4><b>Teresa Carles</b></h4>
+        <p style="margin-top: -1em">Proximity and cruelty free products.</p>
+      </div>
+    </div>
+
+        <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+      </div>
+    </div>
+
+    <div class="w3-half w3-container">
+      <h3>SHOPS</h3>
+      <div class="slideshow-container">
+        <div class="mySlides2">
+      <figure align ="center">
+        <img src="Images/Humana.png" style="width:100%">
+      </figure>
+      <div class="w3-container w3-white">
+        <h4><b>Humana</b></h4>
+        <p style="margin-top: -1em">Donate the clothes you no longer use.</p>
+      </div>
+    </div>
+        <div class="mySlides2">
+      <figure align ="center">
+        <img src="Images/Re-Read.png" style="width:100%">
+      </figure>
+      <div class="w3-container w3-white">
+        <h4><b>Re-Read</b></h4>
+        <p style="margin-top: -1em">Second-hand books.</p>
+      </div>
+    </div>
+        <div class="mySlides2">
+      <figure align ="center">
+        <img src="Images/Flamingos.png" style="width:100%">
+      </figure>
+      <div class="w3-container w3-white">
+        <h4><b>Flamingos Vintage Kilo</b></h4>
+        <p style="margin-top: -1em">Buy second-hand clothes by weight.</p>
+      </div>
+    </div>
+
+        <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+      </div>
+    </div>
+  </div>  
+    <script>
+    var slideIndex = [1,1];
+    var slideId = ["mySlides1", "mySlides2"];
+    var init = true;
+    if (init == true) {initSlides()}
+
+    function plusSlides(n, s_id) {
+      showSlides(slideIndex[s_id] += n, s_id);
+    }
+
+    function showSlides(n, s_id) {
+      var i;
+      var x = document.getElementsByClassName(slideId[s_id]);
+      if (n > x.length) {slideIndex[s_id] = 1}
+      if (n < 1) {slideIndex[s_id] = x.length}
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";
+      }
+      x[slideIndex[s_id]-1].style.display = "block";
+    }
+
+    function initSlides(){
+      var slider1 = document.getElementsByClassName("mySlides1");
+      var slider2 = document.getElementsByClassName("mySlides2");
+      for (i = 1; i < slider1.length; i++) {
+         slider1[i].style.display = "none";
+      }
+      for (i = 1; i < slider2.length; i++) {
+         slider2[i].style.display = "none";
+      }  
+      init = false;
+    }
+  </script>
+  </figure>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-32">
+  
+  <div class="w3-xlarge w3-section">
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-facebook"></i>
+  </div>
+  
+</footer>
+
+<script>
+    // Modal Image Gallery
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+      var captionText = document.getElementById("caption");
+      captionText.innerHTML = element.alt;
+    }
+
+
+    // Toggle between showing and hiding the sidebar when clicking the menu icon
+    var mySidebar = document.getElementById("mySidebar");
+
+    function w3_open() {
+      if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+      } else {
+        mySidebar.style.display = 'block';
+      }
+    }
+
+    // Close the sidebar with the close button
+    function w3_close() {
+        mySidebar.style.display = "none";
+    }
+</script>
+
+</body>
+</html>
