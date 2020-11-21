@@ -7,4 +7,4 @@ reboom.es is a website that recommends smartphones or laptops to users using a s
 It does not only have the test functionality but there's also a "sale" page exposing those smartphones or laptops that are on sale at the moment. You can also log in on the website to save your test results or your favorite devices.
 
 ![Landing Page](/Images/LandingPage.png)
-Format: ![Alt Text](url)
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
