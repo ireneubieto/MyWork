@@ -14,4 +14,4 @@ php and sql. There was also a twitter bot implemented to throw the daily challen
 
 ## Contributions
 
-Developers: Irene Ubieto, Bet Rufas, Dimas Ávila, Pau Rodríguez
+**Developers:** Irene Ubieto, Bet Rufas, Dimas Ávila, Pau Rodríguez
