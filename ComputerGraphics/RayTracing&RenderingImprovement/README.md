@@ -42,7 +42,7 @@ Two possible extensions of this project could be applying textures to the mesh o
 
 ## Engine
 
-This game was developed in C++ and OpenGL. It was done for the UPF course Synthetic Image.
+This project was developed in C++ and OpenGL. It was done for the UPF course Synthetic Image.
 
 ## Contributions
 
