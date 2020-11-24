@@ -12,7 +12,7 @@ This game was developed in C++ and OpenGL. It was done for the UPF course Electr
 
 ## Contributions
 
-**Developers:** Irene Ubieto, Júlia Solé
+**Developers:** Irene Ubieto Alamillo, Júlia Solé Cubilo
 
 **Framework Developer:** Javi Agenjo
 
