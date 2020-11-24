@@ -8,7 +8,7 @@ This project uses H.C. Andersen’s fairy “The Little Mermaid” in a serious 
 
 This game was developed using Unity Engine and C# for the AAU final bachelor project.
 
-[!Run Game](https://theintroverts.itch.io/lille-havfrue)
+[Run Game](https://theintroverts.itch.io/lille-havfrue)
 
 ## Contributions
 
