@@ -2,11 +2,45 @@
 
 ## Main Concept
 
-Starting from a previous version of this project, which was a **Ray Tracer** that could render different materials as Phong, Diffuse, Glossy, Mirror and Glass (these last two using specular reflections and transmission); different shapes as spheres, infinite planes, and triangles (by ray intersection concepts) and also took into account the lightning conditions of the scene and was able to apply both direct illumination and global illumination.
+In this project we learned how to work with the GPU to implement shaders. We applied Gouraud by creating a shader that computed vertex illumination and Phong by creating another shader that computed pixel illumination. We also applied blending so we were able to use multiple lights, and camera movement to enable interaction.
 
-<img src="https://github.com/ireneubieto/MyWork/blob/main/ComputerGraphics/RayTracing&RenderingImprovement/Images/Direct.png" alt="Direct illumination" width="350px"> <img src="https://github.com/ireneubieto/MyWork/blob/main/ComputerGraphics/RayTracing&RenderingImprovement/Images/Global.png" alt="Global illumintaion" width="350px">
+Then, we improved the Phong shader (that used information per pixel) to apply textures.
 
-From there, we implemented a few improvements as we wanted to focus on meshes and deepen into how they are loaded and how they work:
+### Controls and functionalities
+
+Keys W, A, S and D: move the camera (eye vector)
+Keys UP, DOWN, LEFT and RIGHT: move the light (light 1)
+
+Change materials:
+Key 1: Plastic
+Key 2: Gold
+Key 3: Argent
+Key 4: Rubber
+Key 5: Texture
+
+Change shading:
+P: Phong (default)
+G: Gouraud
+
+Change light color:
+Key 7: Red
+Key 8: Green
+Key 9: Blue
+
+Change light components:
+Keys Z + UP: Increase ambient
+Keys Z + Down: Decrease ambient
+Keys X + UP: Increase diffuse
+Keys X + Down: Decrease diffuse
+Keys C + UP: Increase specular
+Keys C + Down: Decrease specular
+
+Two lights:
+Key H: Turn light 2 on
+Key O: Turn light 2 off
+Keys UP, DOWN, LEFT and RIGHT + L: Move light 2
+
+Key 0: Reset
 
 ## Engine
 
