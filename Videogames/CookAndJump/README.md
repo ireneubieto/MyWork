@@ -14,7 +14,7 @@ This game was developed in C++ and OpenGL. It was done for the UPF course Intera
 
 ## Contributions
 
-**Developers:** Irene Ubieto, Júlia Solé, Laia Gil
+**Developers:** Irene Ubieto Alamillo, Júlia Solé Cubilo, Laia Gil Cuevas
 
 **Framework Developer:** Full Body Interaction Lab
 
