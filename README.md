@@ -16,11 +16,7 @@ Hope you enjoy it.
     * [Web Development](#wd2)
     * [3D Art](#art)
 * [Areas of interest](#aoi)
-  * [3D Art](#art2)
-  * [Computer Graphics](#cg2)
-  * [Game Development](#gd2)
-  * [Artificial Intelligence](#ai)
-  * [Adobe Creative Cloud](#acc)
+
    
 <a name="intro"></a>
 ## Introduction
@@ -75,19 +71,11 @@ The second project is a startup website that's working at the moment, [reboom.es
 <a name="aoi"></a>
 ## Areas of interest
 
-<a name="art2"></a>
+
 ### 3D Art
-
-<a name="cg2"></a>
 ### Computer Graphics
-
-<a name="gd2"></a>
 ### Game Development
-
-<a name="ai"></a>
 ### Artificial Intelligence
-
-<a name="acc"></a>
 ### Adobe Creative Cloud
 
 
