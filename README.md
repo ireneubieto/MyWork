@@ -73,13 +73,11 @@ I also worked on my 3D art skills like modelling, rigging or animating. These [m
 <a name="aoi"></a>
 ## Areas of interest
 
-
-### 3D Art
-### Computer Graphics
-### Game Development
-### Artificial Intelligence
-### Adobe Creative Cloud
-
+My greatest interests in my field are game development and 3D Art. I would love to learn more about the game development field, as it is the one that has caught my attention the most; and have the chance to use the knowledge I acquired during my bachelor's degree to grow as a better developer, artist, and engineer.
+I have experienced the videogame development world in some subjects and projects of my bachelor's degree, as stated above, and I love the possibility to create experiences that people will get to enjoy, both by programming or creating art. <br>
+Also, I like being able to get people visually engaged by creating art, and making experiences that get as close to the real-world as possible, making use of computer graphics. <br>
+Artificial Intelligence is another field I am quite interested in, especially its applications to the entertainment industry.<br>
+Finally, I have also been learning about Adobe Creative Cloud engines, most of all Photoshop and After Effects, so I can help myself every time I need to edit a photo or create a video for any of my projects.
 
 
 
