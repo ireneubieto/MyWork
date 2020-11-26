@@ -68,6 +68,8 @@ The second project is a startup website that's working at the moment, [reboom.es
 <a name="art"></a>
 #### 3D Art
 
+I also worked on my 3D art skills like modelling, rigging or animating. These [mermaids](https://github.com/ireneubieto/MyWork/blob/main/3DART/Mermaids) I made are an example.
+
 <a name="aoi"></a>
 ## Areas of interest
 
